@@ -14,6 +14,8 @@
                         <th scope="col">Apellido</th>
                         <th scope="col">Nro. DNI</th>
                         <th scope="col">Nro.Telefono</th>
+                        <th scope="col">Tipo Cliente</th>
+                        <th scope="col">Relación</th>
                         <th scope="col">Acciones</th>
                     </tr>
                 </thead>
@@ -24,6 +26,8 @@
                             <td>{{apecli}}</td>
                             <td>{{nrodnicli}}</td>
                             <td>{{telcli}}</td>
+                            <td>{{tipo_cliente}}</td>
+                            <td>{{relacion}}</td>
                             <td>
                                 <div class="">
                                     <a href="/edit/{{idcli}}" class="btn btn-warning p-2"><i class="fa-solid fa-pencil"></i>Actualizar</a>
@@ -35,7 +39,7 @@
                 </tbody>
                 <tfoot>
                     <tr class="table-dark">
-                        <td colspan="5">REGISTRO DE CLIENTES</td>
+                        <td colspan="7">REGISTRO DE CLIENTES</td>
                     </tr>
                 </tfoot>
             </table>
